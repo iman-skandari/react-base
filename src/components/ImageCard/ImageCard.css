@@ -1,0 +1,5 @@
+img{ transition: transform .7s ease-in-out;}
+.imgCard:hover{
+    transform: rotate(360deg);
+  
+}
