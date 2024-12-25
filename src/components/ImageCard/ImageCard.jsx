@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImageCard.css"
-import Img from "../../../public/free-images.jpg"
-const ImageCard = ({ name, title, bio }) => {
+
+const ImageCard = ({ name, title, bio,img }) => {
   return (
     <div
       style={{
@@ -21,7 +21,7 @@ const ImageCard = ({ name, title, bio }) => {
     >
       <img className="imgCard"
         style={{ width: "450px", borderRadius: "8px",cursor:'pointer',    marginTop: "1rem", }}
-        src={Img}
+        src={img}
         alt="image"
       />
       <h2>

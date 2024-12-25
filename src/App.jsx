@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
 import ImageCard from "./components/ImageCard/ImageCard";
-
+import Img from "../public/free-images.jpg"
 const App = () => {
-  const [count, setCount] = useState(0);
+  
 
   return (
     <>
@@ -30,6 +30,7 @@ const App = () => {
              skills such as mastery of the camera and
               lighting, but also creativity and a unique
                vision to capture the beauty of life."
+               img={Img}
         />
       </div>
     </>
